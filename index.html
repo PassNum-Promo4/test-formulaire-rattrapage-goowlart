@@ -10,40 +10,32 @@
 <body>
   <div class="container">
 
-  <form>
-    <fieldset>
-      <legend>Informations personnelles</legend>
-      <label>Prénom*</label>
-      <input type="text" name="text" value="Inserer votre prénom ici">
-      <label>Mon*</label>
-      <input type="text" name="text" value="Inserer votre nom ici"><br>
+    <form>
+      <fieldset>
+        <legend>Informations personnelles</legend>
+        <label>Prénom*</label>
+        <input type="text" name="text" value="Inserer votre prénom ici">
+        <label>Mon*</label>
+        <input type="text" name="text" value="Inserer votre nom ici"><br>
 
-      <label>Date de naissance* </label>
-      <input type="date" name="naissance">
-    </fieldset>
-  </form>
+        <label>Date de naissance* </label>
+        <input type="date" name="naissance">
+      </fieldset>
 
-  <form>
-    <label>Numéro du joueur (compris entre 9 et 99)</label>
-    <input type="number" name="quantity" min="9" max="99">
-  </form>
+      <label>Numéro du joueur (compris entre 9 et 99)</label>
+      <input type="number" name="quantity" min="9" max="99">
 
+      <fieldset>
+        <legend>Listes des postes auxquels je peux évoluer</legend>
+        <input type="radio" name="position" value="defenseur"> Défenseur<br>
+        <input type="radio" name="position" value="milieu"> Milieu<br>
+        <input type="radio" name="position" value="attaquant"> Attaquant<br>
+        <a href="#"><button>Obtenir des indormations supplémentaires sur les postes</button></a>
+      </fieldset>
 
-  <form>
-    <fieldset>
-      <legend>Listes des postes auxquels je peux évoluer</legend>
-      <input type="radio" name="position" value="defenseur"> Défenseur<br>
-      <input type="radio" name="position" value="milieu"> Milieu<br>
-      <input type="radio" name="position" value="attaquant"> Attaquant<br>
-      <a href="#"><button>Obtenir des indormations supplémentaires sur les postes</button></a>
-    </fieldset>
-
-  </form>
-
-  <form>
-    <input type="submit" value="Envoyer">
-    <p>* = Champs obrigatoires</p>
-  </form>
+      <input type="submit" value="Envoyer">
+      <p>* = Champs obrigatoires</p>
+    </form>
 
   </div>
 </body>
